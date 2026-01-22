@@ -49,7 +49,7 @@ function Dashboard() {
           setError('Session expired. Please log in again.');
           navigate('/login');
         } else {
-          setError('Failed to load dashboard data. Please ensure the backend server is running on port 5000.');
+          setError('Failed to load dashboard data. Please check the backend server.');
         }
       } finally {
         setLoading(false);
