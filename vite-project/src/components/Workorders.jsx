@@ -2,8 +2,8 @@ import { useState, useEffect, useContext } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 import { AuthContext } from '../context/Authcontext';
+import { API_URL } from '../constants';
 import '../styles/WorkOrders.css';
-const API_URL = import.meta.env.VITE_API_URL || '/api';
 
 function WorkOrders() {
   const { user } = useContext(AuthContext);
