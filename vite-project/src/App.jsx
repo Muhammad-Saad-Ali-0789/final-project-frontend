@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import Login from './components/Login';
 import Dashboard from './components/Dashboard';
 import Assets from './components/Assets';
-import WorkOrders from './components/WorkOrders';
+import WorkOrders from './components/Workorders';
 import Admin from './components/Admin';
 import Manager from './components/Manager';
 import Technician from './components/Technician';
